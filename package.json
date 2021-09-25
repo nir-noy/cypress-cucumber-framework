@@ -1,0 +1,28 @@
+{
+  "name": "cypress-cucumber-framework",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nir-noy/cypress-cucumber-framework.git"
+  },
+  "author": "NIRNOY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nir-noy/cypress-cucumber-framework/issues"
+  },
+  "homepage": "https://github.com/nir-noy/cypress-cucumber-framework#readme",
+  "devDependencies": {
+    "cypress": "^8.4.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  }
+}
